@@ -1,0 +1,217 @@
+@font-face {
+  font-family: 'vt323';
+  src: url('VT323-Regular.ttf') format('truetype');
+}
+body{
+	font-family: "vt323";
+	font-size: 22px;
+}
+.links{
+	text-align: right;
+}
+.links a{
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	margin-left: 45px;
+	padding-top: 5px;
+	text-align: right;
+}
+.links a:hover{
+	text-decoration: underline;
+}
+a{	
+	display: inline-block;
+
+}
+.title a{
+	color: #00FF00;
+	text-decoration: none;
+}
+.title a:hover{
+	cursor: pointer;
+}
+#contentTitle{
+	color:#00FF00;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.textTimeBar{
+	margin-top: 15px;
+}
+
+.timeBar{
+	height: 137px;
+	padding-top: 40px;
+}
+.jobSelect{
+	padding-right: 20px;
+}
+.jobSelect a{
+	width: 90px;
+	line-height: 32px;
+	height: 40px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+	border: 3px solid white;
+
+}
+.jobSelect a:hover,.timeSelect a:hover{
+	text-decoration: underline;
+	background-color: black;
+	color: white;
+}
+
+.current{
+	background-color: white;
+	color: black!important;
+}
+.current:hover{
+	text-decoration: none;
+	background-color: white!important;
+	color: black!important;
+}
+.title{
+	font-size: 32px;
+	padding-top: 2px;
+	color: #00FF00;
+}
+.timeSelect a{
+	width: 180px;
+	line-height: 32px;
+	height: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	border: 3px solid white;
+}
+.bar{
+	background-color: white;
+	display: inline-block;
+	height: 3px;
+	width: calc(100% - 27px);
+	position: relative;
+	top: -15px;
+	right: -27px;
+}
+span{
+	z-index: 1000;
+	position: absolute;
+	margin-left: 92%;
+	margin-top: 1%;
+}
+
+
+body{
+	color: white;
+	background-color: black;
+}
+
+div{
+	padding-left: 0!important;
+	padding-right: 0!important;
+	background:none;
+	color: white;
+}
+.col-md-10{
+	background: none;
+}
+
+.row{
+	margin-left: 0!important;
+	margin-right: 0!important;
+}
+.colored{
+	color: #00FF00;
+}
+h1{
+	color: #00FF00;
+	font-size: 24px;
+/* 	padding-left: 20px; */
+	margin-bottom: 15px;
+}
+p{
+/* 	padding-left: 20px; */
+	padding-right: 30px;
+}
+.container{
+	max-width: 1920px;
+	width: 94%;
+}
+
+
+@media only screen and (max-width:1630px){
+	.container{
+		width: 95%!important;
+	}
+	.jobSelect{
+		padding-left: 40px!important;
+
+	}
+	.jobSelect a{
+		width: 60px;
+		line-height: 35px;
+		height: 40px;
+		text-align: center;
+		font-size: 23px;
+		text-decoration: none;
+		color: white;
+		border: 3px solid white;
+
+	}
+	.timeSelect a{
+		width: 140px;
+		line-height: 35px;
+		height: 40px;
+		text-align: center;
+		text-decoration: none;
+		color: white;
+		font-size: 23px;
+		border: 3px solid white;
+	}
+	.timeSelect{
+		width: 33.3333%;
+	}
+	.links a{
+		color: white;
+		text-decoration: none;
+		font-size: 23px;
+		margin-left: 15px;
+		padding-top: 5px;
+		text-align: right;
+	}
+	#sketch-holder{
+		width: 74%;
+		position: relative;
+		padding-left: 40px!important;
+	}
+	.row .col-md-2{
+		width: 21%;
+	}
+	.links{
+		width: 19%!important;
+	}
+
+}
+
+@media only screen and (max-width:1300px){
+	.timeSelect a{
+		width: 120px;
+		line-height: 35px;
+		height: 40px;
+		text-align: center;
+		text-decoration: none;
+		color: white;
+		font-size: 23px;
+		border: 3px solid white;
+	}
+	p{
+		font-size:18px!important ;
+	}
+}
+
+
